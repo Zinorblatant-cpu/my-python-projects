@@ -1,0 +1,10 @@
+a = int(input("primeiro termo:"))
+r = int(input("Razão da PA:"))
+c = 1
+p = a
+while c <= 10:
+    print("{}".format(a), end="")
+    print("->", end="")
+    a += r
+    c += 1
+print("FIM", end="")
